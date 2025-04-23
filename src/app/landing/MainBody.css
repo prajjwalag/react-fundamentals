@@ -1,9 +1,9 @@
-.project-section {
+section {
     margin-top: 4rem;
     
 }
 
-.project-section > h2 {
+section > h2 {
     font-weight: 300;
     font-size: 2rem;
 }
@@ -12,5 +12,11 @@
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 

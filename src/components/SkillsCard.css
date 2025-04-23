@@ -1,0 +1,20 @@
+.skills-card {
+    width: 4rem;
+    height: 4rem;
+    background-color: oldlace;
+    padding: 1.5rem;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.skills-card > img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.skills-card:hover {
+    background-color: white;
+    scale: 105%;
+    cursor: pointer;
+}
